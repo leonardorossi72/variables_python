@@ -18,12 +18,18 @@ apellido = str(input('Ingrese por consola su primer apellido:'))
 # Alumno:
 # Imprima en pantalla su nombre y apellido
 # utilizando las variables nombre y apellido
+print("Nombre y apellido:" , nombre , apellido)
+
+
 
 # Crear una variable llamada nombre_apellido donde se 
 # almacene el contenido de las variables nombre y apellido
 # separando con un nespacio su nombre de su apellido
 
 # nombre_apellido = .....
+cantidad_caracteres = len(nombre + " " + apellido)
+print("cantidad de caracteres" , cantidad_caracteres)
+
 
 # Crear una variable llamada cantidad donde se
 # almacene la cantidad de caracteres que posee la variable
