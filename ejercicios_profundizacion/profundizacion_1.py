@@ -47,3 +47,15 @@ Alumno:
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+numero_1 = float(input())
+numero_2 = float (input())
+suma = numero_1 + numero_2
+print(suma)
+resta = numero_1 - numero_2
+print(resta)
+multiplicacion = numero_1 * numero_2
+print(multiplicacion)
+division = numero_1 / numero_2
+print(division)
+potencia = numero_1 ** 2
+print(potencia)
