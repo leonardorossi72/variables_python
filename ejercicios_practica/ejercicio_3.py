@@ -14,12 +14,14 @@
 nombre = str(input('Ingrese por consola su primer nombre:'))
 
 apellido = str(input('Ingrese por consola su primer apellido:'))
-
+ 
 # Alumno:
 # Imprima en pantalla su nombre y apellido
 # utilizando las variables nombre y apellido
-print("Nombre y apellido:" , nombre , apellido)
-
+print ( 'Mi nombre es:' , nombre )
+print ('Mi apellido es:' , apellido )
+nombre_apellido = nombre + ' ' + apellido
+print ('Nombre completo' , nombre_apellido)
 
 
 # Crear una variable llamada nombre_apellido donde se 
@@ -27,8 +29,10 @@ print("Nombre y apellido:" , nombre , apellido)
 # separando con un nespacio su nombre de su apellido
 
 # nombre_apellido = .....
-cantidad_caracteres = len(nombre + " " + apellido)
-print("cantidad de caracteres" , cantidad_caracteres)
+cantidad = len (nombre_apellido)
+print('El nombre tiene una cantidad de:' , cantidad ,'caracteres')
+
+
 
 
 # Crear una variable llamada cantidad donde se
