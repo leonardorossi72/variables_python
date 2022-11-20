@@ -82,3 +82,29 @@ Alumno:
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo_1 = str(input('Nombre y apellido del padre: '))
+
+print(nombre_completo_1)
+
+nombre_completo_2 = str(input('Nombre y apellido de la  madre: '))
+print(nombre_completo_2)
+
+nombre = str(input('Nombre del hijo: '))
+print(nombre)
+
+nombre_1 , apellido_1 = nombre_completo_1.split( ' ')
+print(nombre_1)
+print(apellido_1)
+
+nombre_2 , apellido_2 = nombre_completo_2.split ( ' ')
+print(nombre_2)
+print(apellido_2)
+
+hijo = nombre + ' ' +  apellido_1 + ' ' + apellido_2 
+print('Nombre completo Hijo: ', hijo)
+
+
+
+
+
